@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live test</title>
+
+    <!-- css -->
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- custom-css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- media -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+  </head>
+  <body>
+    <!-- ============= Nav Start ============== -->
+    <nav class="nav-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- content -->
+            <div class="nav-content">
+              <!-- logo -->
+              <div class="logo">
+                <img src="assets/images/logo.png" alt="" />
+              </div>
+
+              <!-- menu -->
+              <ul>
+                <li>
+                  <a href="" class="active">Home</a>
+                </li>
+
+                <li>
+                  <a href="">About Me</a>
+                </li>
+
+                <li>
+                  <a href="">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ============= Nav End ============== -->
+
+    <!-- ============= banner Start ============== -->
+    <section class="section-gaps banner">
+      <div class="container">
+        <div class="row d_flex">
+          <!-- content -->
+          <div class="col-lg-6 col-sm-6">
+            <div class="banner-content">
+              <h1>
+                CREATIVE UI <br />
+                <span>DESIGNER</span>
+              </h1>
+
+              <!-- dual-button -->
+              <div class="banner-dual-button">
+                <a href="" class="common-btn">Hire me</a>
+                <button class="common-btn">
+                  Download CV
+                  <!-- svg -->
+                  <svg
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 15.5V19.5C21 20.0304 20.7893 20.5391 20.4142 20.9142C20.0391 21.2893 19.5304 21.5 19 21.5H5C4.46957 21.5 3.96086 21.2893 3.58579 20.9142C3.21071 20.5391 3 20.0304 3 19.5V15.5"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7 10.5L12 15.5L17 10.5"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 15V3"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- img -->
+          <div class="col-lg-6 col-sm-6">
+            <div class="banner-img">
+              <img src="assets/images/banner.png" alt="" class="w-100" />
+            </div>
+          </div>
+
+          <!-- arrow -->
+          <div class="banner-arrow">
+            <img src="assets/images/down-arrow.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============= banner End ============== -->
+
+    <!-- ============= about Start ============== -->
+    <section class="section-gaps about">
+      <div class="container">
+        <div class="row d_flex">
+          <!-- content -->
+          <div class="col-lg-6 col-sm-6">
+            <div class="about-content">
+              <h2>About <span>me</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                condimentum lobortis.... <span>Read more</span>
+              </p>
+            </div>
+          </div>
+          <!-- img -->
+          <div class="col-lg-6 col-sm-6">
+            <div class="about-img">
+              <img src="assets/images/about.png" alt="" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============= about End ============== -->
+
+    <!-- ============= recent-work Start ============== -->
+    <section class="section-gaps recent-work">
+      <div class="recent-work-bg-img">
+        <img src="assets/images/recent-work.png" alt="" class="w-100" />
+      </div>
+
+      <!-- recent-work-content -->
+      <div class="recent-work-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>My recent <span>works</span></h2>
+
+              <!-- tabs -->
+              <div class="recent-tabs">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link common-btn active"
+                      id="pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"
+                    >
+                      All
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link common-btn"
+                      id="pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false"
+                    >
+                      UI
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link common-btn"
+                      id="pills-contact-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                    >
+                      UX
+                    </button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link common-btn"
+                      id="pills-contact-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-contact"
+                      aria-selected="false"
+                    >
+                      Web Design
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <!--   All -->
+                  <div
+                    class="tab-pane fade show active"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab"
+                    tabindex="0"
+                  >
+                    <div class="tabs-content">
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-1.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-2.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-3.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--   UI -->
+                  <div
+                    class="tab-pane fade"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab"
+                    tabindex="0"
+                  >
+                    <div class="tabs-content">
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-1.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-2.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-3.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--   UX -->
+                  <div
+                    class="tab-pane fade"
+                    id="pills-contact"
+                    role="tabpanel"
+                    aria-labelledby="pills-contact-tab"
+                    tabindex="0"
+                  >
+                    <div class="tabs-content">
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-1.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-2.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-3.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--  Web Design -->
+                  <div
+                    class="tab-pane fade"
+                    id="pills-disabled"
+                    role="tabpanel"
+                    aria-labelledby="pills-disabled-tab"
+                    tabindex="0"
+                  >
+                    <div class="tabs-content">
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-1.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-2.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+
+                      <!-- item -->
+                      <div class="tabs-item">
+                        <img
+                          src="assets/images/work-3.png"
+                          alt=""
+                          class="w-100"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============= recent-work End ============== -->
+
+    <!-- ============= got-a-project Start ============== -->
+    <section class="section-gaps got-a-project">
+      <div class="container">
+        <div class="row d_flex">
+          <!-- left -->
+          <div class="col-lg-6">
+            <div class="got-a-project-left">
+              <h2>Got a project in <span>mind?</span></h2>
+              <img src="assets/images/mind.png" alt="" class="w-80" />
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="col-lg-6">
+            <div class="got-a-project-right">
+              <form action="" method="POST">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="">
+                      <label for=""> Your name </label>
+                      <input type="text" placeholder="Name" />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="">
+                      <label for=""> Your Email </label>
+                      <input type="text" placeholder="Email" />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="">
+                      <label for=""> Your Message </label>
+                      <textarea
+                        name=""
+                        id=""
+                        rows="3"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============= got-a-project End ============== -->
+
+    <!-- ============= footer Start ============== -->
+    <footer class="section-gaps footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li>
+                <a href="">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9 22V12H15V22"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  About Me
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22.0001 16.9201V19.9201C22.0012 20.1986 21.9441 20.4743 21.8326 20.7294C21.721 20.9846 21.5574 21.2137 21.3521 21.402C21.1469 21.5902 20.9046 21.7336 20.6408 21.8228C20.377 21.912 20.0974 21.9452 19.8201 21.9201C16.7429 21.5857 13.7871 20.5342 11.1901 18.8501C8.77388 17.3148 6.72539 15.2663 5.19006 12.8501C3.50003 10.2413 2.4483 7.27109 2.12006 4.1801C2.09507 3.90356 2.12793 3.62486 2.21656 3.36172C2.30518 3.09859 2.44763 2.85679 2.63482 2.65172C2.82202 2.44665 3.04986 2.28281 3.30385 2.17062C3.55783 2.05843 3.8324 2.00036 4.11006 2.0001H7.11006C7.59536 1.99532 8.06585 2.16718 8.43382 2.48363C8.80179 2.80008 9.04213 3.23954 9.11005 3.7201C9.23668 4.68016 9.47151 5.62282 9.81006 6.5301C9.9446 6.88802 9.97372 7.27701 9.89396 7.65098C9.81421 8.02494 9.62892 8.36821 9.36005 8.6401L8.09006 9.9101C9.51361 12.4136 11.5865 14.4865 14.0901 15.9101L15.3601 14.6401C15.6319 14.3712 15.9752 14.1859 16.3492 14.1062C16.7231 14.0264 17.1121 14.0556 17.4701 14.1901C18.3773 14.5286 19.32 14.7635 20.2801 14.8901C20.7658 14.9586 21.2095 15.2033 21.5266 15.5776C21.8437 15.9519 22.0122 16.4297 22.0001 16.9201Z"
+                      stroke="#EEEEEE"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+
+                  Contact
+                </a>
+              </li>
+            </ul>
+
+            <!-- social-icon -->
+            <div class="social-icon">
+              <a href="">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="48" height="48" rx="24" fill="#393E46" />
+                  <path
+                    d="M30 14H27C25.6739 14 24.4021 14.5268 23.4645 15.4645C22.5268 16.4021 22 17.6739 22 19V22H19V26H22V34H26V26H29L30 22H26V19C26 18.7348 26.1054 18.4804 26.2929 18.2929C26.4804 18.1054 26.7348 18 27 18H30V14Z"
+                    stroke="#EEEEEE"
+                    stroke-opacity="0.75"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+
+              <a href="">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_25_10156)">
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <path
+                      d="M29 14H19C16.2386 14 14 16.2386 14 19V29C14 31.7614 16.2386 34 19 34H29C31.7614 34 34 31.7614 34 29V19C34 16.2386 31.7614 14 29 14Z"
+                      stroke="#EEEEEE"
+                      stroke-opacity="0.75"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M28 23.3701C28.1234 24.2023 27.9812 25.0523 27.5937 25.7991C27.2062 26.5459 26.5931 27.1515 25.8416 27.5297C25.0901 27.908 24.2384 28.0397 23.4077 27.906C22.5771 27.7723 21.8097 27.3801 21.2148 26.7852C20.6199 26.1903 20.2277 25.4229 20.094 24.5923C19.9604 23.7616 20.092 22.91 20.4703 22.1584C20.8485 21.4069 21.4541 20.7938 22.2009 20.4063C22.9477 20.0188 23.7977 19.8766 24.63 20.0001C25.4789 20.1259 26.2648 20.5215 26.8716 21.1284C27.4785 21.7352 27.8741 22.5211 28 23.3701Z"
+                      stroke="#EEEEEE"
+                      stroke-opacity="0.75"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M29.5 18.5H29.51"
+                      stroke="#EEEEEE"
+                      stroke-opacity="0.75"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_25_10156">
+                      <rect width="48" height="48" rx="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+
+              <a href="">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_25_10159)">
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <path
+                      d="M35 15C34.0424 15.6755 32.9821 16.1922 31.86 16.53C31.2577 15.8376 30.4573 15.3467 29.567 15.124C28.6767 14.9012 27.7395 14.9572 26.8821 15.2845C26.0247 15.6118 25.2884 16.1944 24.773 16.9538C24.2575 17.7131 23.9877 18.6124 24 19.53V20.53C22.2426 20.5756 20.5013 20.1859 18.931 19.3955C17.3607 18.6051 16.0103 17.4387 15 16C15 16 11 25 20 29C17.9405 30.398 15.4872 31.099 13 31C22 36 33 31 33 19.5C32.9991 19.2215 32.9723 18.9436 32.92 18.67C33.9406 17.6635 34.6608 16.3928 35 15V15Z"
+                      stroke="#EEEEEE"
+                      stroke-opacity="0.75"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_25_10159">
+                      <rect width="48" height="48" rx="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+
+              <a href="">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_25_10159)">
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <rect width="48" height="48" rx="24" fill="#393E46" />
+                    <path
+                      d="M35 15C34.0424 15.6755 32.9821 16.1922 31.86 16.53C31.2577 15.8376 30.4573 15.3467 29.567 15.124C28.6767 14.9012 27.7395 14.9572 26.8821 15.2845C26.0247 15.6118 25.2884 16.1944 24.773 16.9538C24.2575 17.7131 23.9877 18.6124 24 19.53V20.53C22.2426 20.5756 20.5013 20.1859 18.931 19.3955C17.3607 18.6051 16.0103 17.4387 15 16C15 16 11 25 20 29C17.9405 30.398 15.4872 31.099 13 31C22 36 33 31 33 19.5C32.9991 19.2215 32.9723 18.9436 32.92 18.67C33.9406 17.6635 34.6608 16.3928 35 15V15Z"
+                      stroke="#EEEEEE"
+                      stroke-opacity="0.75"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_25_10159">
+                      <rect width="48" height="48" rx="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+
+            <!-- terms -->
+            <div class="terms">
+              <a href=""> Terms of Service - </a>
+
+              <a href="">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ============= footer End ============== -->
+
+    <!-- ============= Start ============== -->
+    <!-- ============= End ============== -->
+
+    <!-- ============= Start ============== -->
+    <!-- ============= End ============== -->
+
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
